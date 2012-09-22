@@ -11,19 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120920130501) do
+ActiveRecord::Schema.define(:version => 20120922062954) do
 
   create_table "users", :force => true do |t|
     t.string   "full_name"
     t.string   "email"
-    t.string   "encrypted_password"
-    t.string   "salt"
     t.integer  "mobile"
     t.string   "gender"
     t.integer  "points"
     t.integer  "matches"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
+    t.string   "hashed_password"
+    t.string   "salt"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
 end
