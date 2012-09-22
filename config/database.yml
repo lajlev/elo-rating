@@ -1,5 +1,5 @@
 # MySQL.  Versions 4.1 and 5.0 are recommended.
-# 
+#
 # Install the MYSQL driver
 #   gem install mysql2
 #
@@ -12,10 +12,10 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: elo-ranking_development
+  database: elo_ranking_dev
   pool: 5
-  username: root
-  password:
+  username: elo_ranking
+  password: '7913'
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and

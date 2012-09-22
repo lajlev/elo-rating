@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  email: MyString
+  encrypted_password: MyString
+  salt: MyString
+  mobile: 1
+  gender: MyString
+  points: 1
+  matches: 1
+
+two:
+  email: MyString
+  encrypted_password: MyString
+  salt: MyString
+  mobile: 1
+  gender: MyString
+  points: 1
+  matches: 1

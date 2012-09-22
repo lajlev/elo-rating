@@ -1,0 +1,236 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"emm",
+				"Set Syntax: Emmet"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"repo",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lajlev/Sites/elo-ranking/README.rdoc",
+		"/Users/lajlev/Sites/trustpilot/singlereview/header-footer.scss",
+		"/Users/lajlev/Sites/trustpilot/singlereview/singlereview.html",
+		"/Users/lajlev/Sites/trustpilot/singlereview/singlereview.scss",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/Users/lajlev/.powconfig",
+		"/private/etc/apache2/other/zzz_pow.conf",
+		"/Users/lajlev/Sites/test/tutorial/log/development.log",
+		"/Users/lajlev/Desktop/symlink/info.plist",
+		"/Users/lajlev/Desktop/symlink/kudos.plist",
+		"/private/etc/hosts",
+		"/private/var/log/apache2/error_log",
+		"/private/etc/apache2/httpd.conf",
+		"/private/etc/apache2/users/lajlev.conf",
+		"/Users/lajlev/Sites/index.html",
+		"/etc/apache2/httpd.conf",
+		"/etc/apache2/users/lajlev.conf",
+		"/usr/local/bin/pow",
+		"/Users/lajlev/Sites/trustpilot/singlereview/editor.scss",
+		"/Users/lajlev/Sites/trustpilot/singlereview/index.html",
+		"/Users/lajlev/Sites/trustpilot/header-footer/index.html",
+		"/Users/lajlev/Sites/singlereview/singlereview.scss",
+		"/Users/lajlev/Sites/singlereview/singlereview.html",
+		"/Users/lajlev/Sites/singlereview/editor.css",
+		"/Users/lajlev/Sites/singlereview/index.html",
+		"/Users/lajlev/Library/Caches/Cleanup At Startup/Transmit/9DA97A82-2453-4307-96B9-54B403F9E4B0/index.html",
+		"/Users/lajlev/Sites/test/tutorial/db/migrate/20120913174712_create_subjects.rb",
+		"/Users/lajlev/Sites/test/tutorial/db/migrate/20120913174735_create_sections.rb",
+		"/Users/lajlev/Sites/test/tutorial/db/migrate/20120913174720_create_pages.rb",
+		"/Users/lajlev/Sites/test/tutorial/db/migrate/20120912171352_do_nothing_yet.rb",
+		"/Users/lajlev/Sites/test/tutorial/db/migrate/20120913090441_alter_users.rb",
+		"/Users/lajlev/Sites/test/tutorial/db/migrate/20120912171658_create_users.rb",
+		"/Users/lajlev/Sites/test/tutorial/db/migrate/20120912171352_don_nothing_yet.rb",
+		"/Users/lajlev/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/lajlev/Sites/test/tutorial/config/database.yml",
+		"/Users/lajlev/Sites/test/tutorial/config.ru",
+		"/Users/lajlev/Sites/test/tutorial/Gemfile",
+		"/Users/lajlev/Sites/test/tutorial/Gemfile.lock",
+		"/Users/lajlev/Sites/test/tutorial/Rakefile",
+		"/Users/lajlev/Sites/test/tutorial/README.rdoc",
+		"/Users/lajlev/Desktop/company_profile_files/styles.css",
+		"/Users/lajlev/Desktop/company_profile.html",
+		"/Users/lajlev/Sites/test/tutorial/db/schema.rb",
+		"/Users/lajlev/Sites/test/tutorial/app/views/layouts/application.html.erb",
+		"/Users/lajlev/Sites/test/tutorial/config/routes.rb",
+		"/Users/lajlev/Sites/test/tutorial/app/controllers/demo_controller.rb",
+		"/Users/lajlev/Sites/test/tutorial/app/views/demo/hello.html.erb",
+		"/Users/lajlev/Sites/test/tutorial/app/views/demo/index.html.erb",
+		"/Users/lajlev/Sites/test/tutorial/public/index.html",
+		"/Users/lajlev/Downloads/RoR tuts/Ex_Files_RubyRails3_EssT/Exercise Files/Chapter_05/05_05_simple_cms/app/views/demo/index.html.erb",
+		"/Users/lajlev/Desktop/index.scss.css",
+		"/Users/lajlev/.gemrc",
+		"/Users/lajlev/Desktop/index.html",
+		"/Users/lajlev/.bash_profile",
+		"/Users/lajlev/Dropbox/websites/vendor/bootstrap/css/bootstrap",
+		"/Users/lajlev/Dropbox/websites/vendor/bootstrap/css/bootstrap-responsive.css"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"vhost",
+			"virtu",
+			"/IfDefine",
+			"servername",
+			"company-profile",
+			"minso"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"singlereview"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"s",
+				"db/schema.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"hel",
+				"app/views/demo/hello.html.erb"
+			],
+			[
+				"inde",
+				"app/views/demo/index.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true
+}
