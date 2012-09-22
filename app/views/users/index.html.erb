@@ -1,7 +1,8 @@
-<h1>Users</h1>
+<h1>Spillere</h1>
 
 <table>
   <tr>
+    <th>ID</th>
     <th>Navn</th>
     <th>E-mail</th>
     <th>Mobil</th>
@@ -16,6 +17,7 @@
 
 <% @users.each do |user| %>
   <tr>
+    <td><%= user.id %></td>
     <td><%= user.full_name %></td>
     <td><%= user.email %></td>
     <td><%= user.mobile %></td>
@@ -28,3 +30,8 @@
   </tr>
 <% end %>
 </table>
+
+
+<br>
+
+<%= link_to 'New User', new_user_path %>

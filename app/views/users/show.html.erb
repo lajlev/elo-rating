@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Navn:</b>
+  <%= @user.full_name %>
+</p>
+
+<p>
+  <b>E-mail:</b>
+  <%= @user.email %>
+</p>
+
+<p>
+  <b>Mobil:</b>
+  <%= @user.mobile %>
+</p>
+
+<p>
+  <b>Points:</b>
+  <%= @user.points %>
+</p>
+
+<p>
+  <b>Kampe:</b>
+  <%= @user.matches %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
