@@ -1,2 +1,28 @@
-<h1>Matches#show</h1>
-<p>Find me in app/views/matches/show.html.erb</p>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Date:</b>
+  <%= @match.created_at %>
+</p>
+
+<p>
+  <b>Winner 1:</b>
+  <%= @match.winner_1 %>
+</p>
+
+<p>
+  <b>Winner 2:</b>
+  <%= @match.winner_2 %>
+</p>
+
+<p>
+  <b>Looser 1:</b>
+  <%= @match.looser_1 %>
+</p>
+
+<p>
+  <b>Looser 2:</b>
+  <%= @match.looser_2 %>
+</p>
+
+<%= link_to 'Back', matches_path %>

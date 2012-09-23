@@ -1,2 +1,38 @@
-<h1>Matches#new</h1>
-<p>Find me in app/views/matches/new.html.erb</p>
+<h1>Registrate match</h1>
+
+<%= form_for(@match) do |f| %>
+  <% if @match.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@match.errors.count, "error") %> prohibited this match from being saved:</h2>
+
+      <ul>
+      <% @match.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :winner_1 %><br />
+    <%= f.text_field :winner_1 %>
+  </div>
+  <div class="field">
+    <%= f.label :winner_2 %><br />
+    <%= f.text_field :winner_2 %>
+  </div>
+  <div class="field">
+    <%= f.label :looser_1 %><br />
+    <%= f.text_field :looser_1 %>
+  </div>
+  <div class="field">
+    <%= f.label :looser_2 %><br />
+    <%= f.text_field :looser_2 %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+
+<%= link_to 'Back', matches_path %>
