@@ -23,6 +23,10 @@
     <%= f.label :mobile %><br />
     <%= f.text_field :mobile %>
   </div>
+  <div class="field">
+    <%= f.label :gender %><br />
+    <%= f.select :gender, options_for_select([["Choose sex", ""], ["Female", "female"], ["Male", "male"]]) %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

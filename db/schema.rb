@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120922062954) do
+ActiveRecord::Schema.define(:version => 20120923071039) do
+
+  create_table "matches", :force => true do |t|
+    t.integer  "winner_1"
+    t.integer  "winner_2"
+    t.integer  "looser_1"
+    t.integer  "looser_2"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "full_name"
